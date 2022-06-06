@@ -19,8 +19,6 @@ At the end of the this project, students will be able to;
 
 - Create a checkout page following the design and make the calculation of cart dynamically with using of DOM and Event in JS.
 
-![Form](checkout_app.gif)
-
 - User story;
 
   - When I click plus button on product's row, I can increase the product's quantity.
