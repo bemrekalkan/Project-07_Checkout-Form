@@ -10,3 +10,13 @@ main {
   justify-content: center;
   text-align: center;
 }
+
+#checkout-title {
+  text-align: center;
+  font-family: Mon, Arial, Arial, Helvetica, sans-serif;
+  margin: 1rem 0;
+}
+
+#products-preview {
+  position: relative;
+}
