@@ -75,3 +75,35 @@ main {
   width: 50%;
   margin-top: 25px;
 }
+
+.quantity-controller button,
+p {
+  position: relative;
+  display: block;
+}
+
+.quantity-controller p {
+  line-height: 24px;
+}
+
+.quantity-controller button {
+  margin: 5px 0;
+  border: 0;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.quantity-controller button i {
+  font-size: 12px;
+}
+
+.buy-detail {
+  margin: 5px 0;
+  border-top: 1px solid #bdbdbd;
+  display: flex;
+  position: relative;
+  width: 90%;
+  font-family: Mon, Arial, Helvetica, sans-serif;
+}
