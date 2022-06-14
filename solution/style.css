@@ -107,3 +107,43 @@ p {
   width: 90%;
   font-family: Mon, Arial, Helvetica, sans-serif;
 }
+
+.buy-detail p {
+  display: block;
+  width: 50%;
+}
+
+.buy-detail p {
+  display: block;
+  width: 50%;
+}
+
+.buy-detail p:nth-child(2) {
+  text-align: right;
+}
+
+#shipping {
+  margin-top: 50px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+span {
+  cursor: pointer;
+}
+
+.minus,
+.plus {
+  height: 20px;
+  width: 20px;
+  margin: 6px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  padding: 0px 4px 10px 4px;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  font-size: 15px;
+}
