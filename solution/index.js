@@ -26,5 +26,14 @@ productsDiv.addEventListener("click", (event) => {
     }
   } else if (event.target.classList.contains("plus")) {
     event.target.previousElementSibling.innerText++;
+    calculateProductAndCartTotal(event.target.parentElement.parentElement);
+  } else if (event.target.classList.contains("remove-product")) {
+    if (confirm("Product will be deleted")) {
+      event.target.parentElement.parentElement.parentElement.remove();
+      calculateCartTotal();
+    }
+    console.log("remove button clicked.");
+  } else {
+    console.log("other element clicked.");
   }
 });
