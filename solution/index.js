@@ -68,4 +68,16 @@ const calculateCartTotal = () => {
     subtotal > 0 ? parseFloat(localStorage.getItem("shippingPrice")) : 0;
 
   let cartTotal = subtotal + taxPrice + shippingPrice;
+
+  document.querySelector("#crat-subtotal p:nth-child(2)").innerText =
+    subtotal.toFixed(2);
+
+  document.querySelector("#cart-tax p:nth-child(2)").innerText =
+    taxPrice.toFixed(2);
+
+  document.querySelector("#cart-shipping p:nth-child(2)").innerText =
+    shippingPrice.toFixed(2);
+
+  document.querySelector("#cart-total").lastElementChild.innerText =
+    cartTotal.toFixed(2);
 };
