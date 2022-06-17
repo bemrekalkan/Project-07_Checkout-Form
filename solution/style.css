@@ -48,7 +48,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  idth: 30%;
+  width: 30%;
   border-radius: 10px;
   margin-right: 20px;
 }
@@ -86,13 +86,15 @@ main {
 }
 
 .quantity-controller {
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid rgb(136, 136, 136);
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   text-align: center;
+  align-items: center;
   width: 15rem;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 1rem;
 }
 
