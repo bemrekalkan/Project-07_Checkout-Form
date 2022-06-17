@@ -10,7 +10,7 @@ window.addEventListener("load", () => {
 
 //! capturing method:
 
-let productsDiv = document.querySelector(".products");
+let productsDiv = document.querySelector("#products");
 productsDiv.addEventListener("click", (event) => {
   if (event.target.className == "minus") {
     let quantityP = event.target.nextElementSibling;
