@@ -63,4 +63,9 @@ const calculateCartTotal = () => {
   console.log(subtotal);
   let taxPrice = subtotal * localStorage.getItem("taxRate");
   console.log(taxPrice);
+
+  let shippingPrice =
+    subtotal > 0 ? parseFloat(localStorage.getItem("shippingPrice")) : 0;
+
+  let cartTotal = subtotal + taxPrice + shippingPrice;
 };
