@@ -49,3 +49,18 @@ const calculateProductAndCartTotal = (productInfoDiv) => {
   productTotalDiv.innerText = (price * quantity).toFixed(2);
   calculateCartTotal();
 };
+
+//! calculate cart totals:
+
+const calculateCartTotal = () => {
+  //? nodeList Div:
+  let productsTotalPriceDivs = document.querySelectorAll(".product-line-price");
+  let subtotal = 0;
+  productsTotalPriceDivs.forEach((eachProductTotalDiv) => {
+    subtotal += parseFloat(eachProductTotalDiv.innerText);
+  });
+
+  console.log(subtotal);
+  let taxPrice = subtotal * localStorage.getItem("taxRate");
+  console.log(taxPrice);
+};
