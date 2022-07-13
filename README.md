@@ -1,11 +1,11 @@
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-# React Project-8 : React-Router
+# React Project-7 : Checkout-Form
 
-## GO TO NETLIFY ➡
+## GO TO NETLIFY ➡ https://04checkoutform.netlify.app/
 
-<p><img align="center" alt="gif" src="" width="500" height="320" /></p>
+<p><img align="center" alt="gif" src="./images/" width="500" height="320" /></p>
 
 ## Description
 
